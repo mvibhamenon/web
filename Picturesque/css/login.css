@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/login3.jpg);
+}
+hr{
+    border-color: white;
+}
+h1{
+    font-weight: 200;
+    font-size: 38px;
+}
+a[ href="signup.php"],a[ href="signup.php"]:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.col-md-offset-3{
+    border: 2px solid white;
+    width: 50%;
+    padding: 2%;
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+input[type='text'],input[type='password'],input[type='email']{
+     background-color:rgba(0, 0, 0, 0);
+     color: white;
+     border-radius: 0;
+     height:30px;
+     border: none;
+     border-bottom: 1px solid white;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-size:22px;
+    text-align: center;
+
+}
+input[type='text']:focus,input[type='password']:focus,input[type='email']:focus{
+    background-color: rgba(0,0,0,0.5);
+    border-top: 0.5px solid white;
+    outline: none;
+    box-shadow: 0px 2px  white;
+    height:40px;
+    font-size:24px;
+}
+
+.btn-danger{
+    width: 25%;
+    transition:width 0.5s;
+    -webkit-transition:width 0.5s;
+    font-size: 18px;
+}
+.btn-danger:hover{
+    width: 30%;
+}
+#images{
+    background-image: url(../images/avatar.png);
+    border-radius: 100px;
+    border: none;
+    width: 100px;
+    height: 100px;
+    outline: none;
+}
+#images:hover{
+    box-shadow: 1px 1px 30px grey;
+}
+::placeholder {
+  color: #e5e5e5 !important;
+    font-size: 22px;
+}

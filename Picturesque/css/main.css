@@ -1,0 +1,19 @@
+body{
+    font-family: 'Cookie', cursive;
+}
+.navbar{
+    border-radius: 0;
+    border:none;
+    background-color: black;
+    padding: 1% 15%;
+}
+.navbar-brand{
+    height: 5%;
+}
+.fa-user-circle, .fa-compass, .fa-plus-circle, .fa-heart{
+    color: white !important;
+    font-size: 20px;
+}
+.navbar-brand, .navbar-header > a{
+    color: white;
+}

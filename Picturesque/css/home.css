@@ -1,0 +1,24 @@
+.content{
+    padding: 1% 15%;
+    border-radius: 10px;
+    border: 0.5px solid #b7b7b7;
+    background-color: rgba(0,0,0,0.07);
+
+}
+.col_content{
+    background-color: white;
+}
+.posts{
+    width: 100%;
+}
+.post_btn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.post_btn:hover{
+    background-color: #bec4cb;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
